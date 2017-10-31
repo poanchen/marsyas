@@ -33,7 +33,6 @@ namespace Marsyas
 
 	Controls:
 	- \b mrs_real/frequency	: frequency of the sine wave
-	\ \b mrs_bool/interpolateFrequency: interpolate frequency 
 **/
 
 
@@ -43,9 +42,8 @@ private:
   realvec wavetable_;
   mrs_real wavetableSize_;
   mrs_real index_;
-  mrs_real prev_freq_;
   MarControlPtr freqControl_;
-  MarControlPtr interpControl_;
+
   void addControls();
   void myUpdate(MarControlPtr sender);
 
