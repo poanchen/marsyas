@@ -33,3 +33,7 @@ http://marsyas.info/
 
 To report issues and provide suggestions, please use our GitHub project page:
 https://github.com/marsyas/marsyas
+
+In case you have trouble running marsyas on your computer, check out this blog
+that PoAn (Baron) Chen wrote that will guide you through it,
+https://poanchen.github.io/blog/2017/10/31/Installing-Marsyas-with-Python-bindings-on-Ubuntu-14.04.3-LTS-64-bits
